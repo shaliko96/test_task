@@ -21,7 +21,7 @@ export const useBackgroundChanger = (
           mainElement.style.backgroundImage = `url(../../../api/${moviesData?.backgrounds[index].url})`;
           index++;
         }
-      }, 2000);
+      }, 5000);
     }
 
     return () => {

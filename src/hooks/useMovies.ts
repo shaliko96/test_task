@@ -25,7 +25,7 @@ export const useMovies = (searchValue: string) => {
         .finally(() => {
           setIsLoading(false);
         });
-    }, 2000);
+    }, 5000);
 
     return () => {
       clearTimeout(timout);
