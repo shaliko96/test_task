@@ -1,0 +1,34 @@
+.headerContainer{
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    a{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Source Sans Pro', sans-serif;
+      text-decoration: none;
+      color:#FFFFFF ;
+    }
+  }
+  .navButtons {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    cursor: pointer;
+    .searchIcon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 56px;
+      height: 56px;
+      background: rgba(255, 255, 255, 0.35)
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "amd": true,
+    "browser": true,
+    "es6": true
+  },
+  "plugins": [
+    "react",
+    "jsdoc",
+    "prettier",
+    "simple-import-sort",
+    "import",
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "indent": [
+      0,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "endOfLine": "auto",
+        "trailingComma": "es5",
+        "printWidth": 100
+      },
+      {
+        "usePrettierrc": false
+      }
+    ],
+    "react/jsx-uses-vars": 2,
+    "react/jsx-uses-react": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/prop-types": 2,
+    "react/no-children-prop": 2,
+    "linebreak-style": 0,
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "no-unused-vars": 1,
+    "react/prefer-stateless-function": 2,
+    "no-unused-expressions": [
+      2,
+      {
+        "allowShortCircuit": true
+      }
+    ],
+    "import/first": 2,
+    "react/sort-comp": 0,
+    "import/no-named-as-default": 2,
+    "import/no-named-default": 2,
+    "react/jsx-no-bind": 0,
+    "no-undef": 0,
+    "react/forbid-prop-types": 0,
+    "react/require-default-props": 0,
+    "no-underscore-dangle": 0,
+    "global-require": 0,
+    "no-nested-ternary": 0,
+    "no-shadow": 0,
+    "import/prefer-default-export": 0,
+    "import/no-unresolved": 0,
+    "no-return-assign": 0,
+    "no-use-before-define": 0,
+    "consistent-return": 0,
+    "default-case": 0,
+    "array-callback-return": 0,
+    "no-continue": 0,
+    "no-param-reassign": 0,
+    "import/no-duplicates": 0,
+    "react/no-did-update-set-state": 0,
+    "react/no-will-update-set-state": 0,
+    "react/jsx-indent": 0,
+    "react/no-array-index-key": 0,
+    "no-mixed-operators": 0,
+    "class-methods-use-this": 0,
+    "radix": 0,
+    "react/no-unused-prop-types": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "no-console": 0,
+    "jsx-quotes": 0,
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1
+      }
+    ],
+    "jsdoc/require-jsdoc": 0,
+    "jsdoc/require-returns-description": 0,
+    "jsdoc/require-param-description": 0,
+    "jsdoc/require-description": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "import/no-cycle": 0,
+    "camelcase": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "react/jsx-filename-extension": 0,
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "import/newline-after-import": "error"
+  }
+}

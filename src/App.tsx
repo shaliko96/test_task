@@ -1,7 +1,15 @@
 import React from 'react';
 
+import Header from './components/Header';
+import MainPage from './views/MainPage';
+
 const App: React.FC = () => {
-  return <h1 style={{ textAlign: 'center' }}>App template</h1>;
+  return (
+    <div className="app">
+      <Header />
+      <MainPage />
+    </div>
+  );
 };
 
 export default App;
