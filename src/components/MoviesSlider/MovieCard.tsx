@@ -42,7 +42,7 @@ const MovieCard: React.FC<IMovieCard> = ({ movie, handleMouseLeave, handleMouseO
         onMouseLeave={handleMouseLeave}
       >
         <motion.div className={styles.carouselImgWrapper}>
-          <img src={`/api/${movie.poster}`} alt={movie.title} />
+          <img src={`/${movie.poster}`} alt={movie.title} />
         </motion.div>
         <div className={styles.onImgInfo}>
           <div className={styles.tagBox}>

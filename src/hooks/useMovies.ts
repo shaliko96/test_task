@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-import discover from '../../api/discover.txt';
+import discover from '../../public/discover.txt';
 import { IMovieItem, IMoviesData } from '../types/movies';
 
 export const useMovies = (searchValue: string) => {

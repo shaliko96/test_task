@@ -32,7 +32,7 @@ const MoviesSlider: React.FC<IMoviesSlider> = ({
 
   const handleMouseOver = (img: string) => {
     if (mainBlockRef) {
-      mainBlockRef.style.backgroundImage = `url(/api/${img})`;
+      mainBlockRef.style.backgroundImage = `url(/${img})`;
       setIsMouseOver(true);
     }
   };
