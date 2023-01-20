@@ -33,6 +33,7 @@ const MovieCard: React.FC<IMovieCard> = ({ movie, handleMouseLeave, handleMouseO
       </>
     );
   };
+
   return (
     <motion.div className={styles.carouselItem}>
       <motion.div
